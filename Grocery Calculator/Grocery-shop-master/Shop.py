@@ -1,8 +1,5 @@
 import tkinter
-
 import client
-
-
 class Shop:
     def __init__(self, master):
         # build the gui
