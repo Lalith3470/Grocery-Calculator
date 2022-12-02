@@ -2,7 +2,6 @@ import socket
 import json
 import threading
 import config
-
 # handling the connection
 def threaded_answer(address, conn):
     
