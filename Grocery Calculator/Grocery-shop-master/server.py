@@ -3,8 +3,7 @@ import json
 import threading
 import config
 # handling the connection
-def threaded_answer(address, conn):
-    
+def threaded_answer(address, conn): 
     while True:
         str_data = conn.recv(1024).decode()
         if not str_data:
