@@ -32,7 +32,6 @@ def threaded_answer(address, conn):
         conn.send(str_resp)
     conn.close()
 
-
 with socket.socket() as my_socket:
     # AF_INET refers to the address family ipv4. The SOCK_STREAM means connection oriented TCP protocol.
     my_socket.bind((config.IP_ADDRESS, config.PORT_NUMBER))
