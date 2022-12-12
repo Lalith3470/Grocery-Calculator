@@ -1,6 +1,7 @@
 import json
 import socket
 import config
+
 class Client:
     def __init__(self):
         try:
