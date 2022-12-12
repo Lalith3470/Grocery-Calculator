@@ -69,5 +69,4 @@ if __name__ == '__main__':
     response = my_socket.recv(1024).decode()
     print("got response:")
     print(response)
-
     my_socket.close()
