@@ -8,7 +8,6 @@ class Client:
             self.socket.connect((config.IP_ADDRESS, config.PORT_NUMBER))
         except:
             raise Exception("make sure the server is up")
-
     def get_prices(self):
         # create a prices request
         prices = {
