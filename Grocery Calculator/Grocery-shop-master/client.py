@@ -1,8 +1,7 @@
 import json
 import socket
 import config
-class Client:
-    
+class Client:   
     def __init__(self):
         try:
             self.socket = socket.socket()
