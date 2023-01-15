@@ -6,5 +6,4 @@ PRICES = {
     'banana': 15,
     'orange': 10,
     'strawberry': 28
-    
 }
